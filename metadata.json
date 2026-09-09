@@ -1,0 +1,6 @@
+{
+  "name": "Rai Ludo King",
+  "description": "High-level real-time Ludo with tactical power-ups, Lucky Fortune Wheel, Google Search Grounded Arena, Rai AI Live Voice Grandmaster, animated 3D dice, and online multiplayer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

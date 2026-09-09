@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep Royal Navy Background -->
+    <path
+        android:fillColor="#101935"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Corner 4 Ludo Quadrant Accents (Red, Green, Yellow, Blue) -->
+    <!-- Top-Left Red -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M0,0h42v42h-42z" />
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M8,8h26v26h-26z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,14h14v14h-14z" />
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M17,17h8v8h-8z" />
+
+    <!-- Top-Right Green -->
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M66,0h42v42h-42z" />
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M74,8h26v26h-26z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,14h14v14h-14z" />
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M83,17h8v8h-8z" />
+
+    <!-- Bottom-Left Blue -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M0,66h42v42h-42z" />
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M8,74h26v26h-26z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,80h14v14h-14z" />
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M17,83h8v8h-8z" />
+
+    <!-- Bottom-Right Yellow -->
+    <path
+        android:fillColor="#FDD835"
+        android:pathData="M66,66h42v42h-42z" />
+    <path
+        android:fillColor="#F57F17"
+        android:pathData="M74,74h26v26h-26z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,80h14v14h-14z" />
+    <path
+        android:fillColor="#FDD835"
+        android:pathData="M83,83h8v8h-8z" />
+
+    <!-- Center Soft Dark Overlay Circle for contrast -->
+    <path
+        android:fillColor="#E60D1527"
+        android:pathData="M54,20 A34,34 0 1,0 54,88 A34,34 0 1,0 54,20 Z" />
+</vector>

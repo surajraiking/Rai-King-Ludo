@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Golden King Crown above Dice -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M38,36 L43,26 L54,32 L65,26 L70,36 Z" />
+    <!-- Crown Jewels / Base band -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M38,36 L70,36 L68,39 L40,39 Z" />
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M54,29 A2,2 0 1,0 54,33 A2,2 0 1,0 54,29 Z" />
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M44,32 A1.5,1.5 0 1,0 44,35 A1.5,1.5 0 1,0 44,32 Z" />
+    <path
+        android:fillColor="#43A047"
+        android:pathData="M64,32 A1.5,1.5 0 1,0 64,35 A1.5,1.5 0 1,0 64,32 Z" />
+
+    <!-- Isometric 3D Ludo Dice -->
+    <!-- Top Face (White-Silver) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,42 L74,52 L54,62 L34,52 Z" />
+    <!-- Left Face (Light Gray) -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M34,52 L54,62 L54,82 L34,72 Z" />
+    <!-- Right Face (Medium Gray / Shadow) -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M54,62 L74,52 L74,72 L54,82 Z" />
+
+    <!-- Top Face Pips (1 dot in center: Red Pip) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M54,49.5 A3,2 0 1,0 54,54.5 A3,2 0 1,0 54,49.5 Z" />
+
+    <!-- Left Face Pips (Showing 3 or 5 dots in Blue / Dark) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M40,58 A2,2.5 0 1,0 40,63 A2,2.5 0 1,0 40,58 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M44,64 A2,2.5 0 1,0 44,69 A2,2.5 0 1,0 44,64 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M48,70 A2,2.5 0 1,0 48,75 A2,2.5 0 1,0 48,70 Z" />
+
+    <!-- Right Face Pips (Showing dots in Dark) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M60,69 A2,2.5 0 1,0 60,74 A2,2.5 0 1,0 60,69 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M68,63 A2,2.5 0 1,0 68,68 A2,2.5 0 1,0 68,63 Z" />
+
+    <!-- Golden Sparkles -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M27,42 L29,40 L31,42 L29,44 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M78,44 L80,41 L82,44 L80,47 Z" />
+</vector>
