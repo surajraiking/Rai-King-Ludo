@@ -18,20 +18,23 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
+      - name: Create .env & Secrets Placeholder
+        run: |
+          echo "GEMINI_API_KEY=dummy_key_for_build" > .env
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
 
-      - name: Create Mock Env File
-        run: echo "GEMINI_API_KEY=dummy_key_for_build" > .env
-
-      - name: Make Gradlew Executable
-        run: chmod +x gradlew
+      - name: Generate Gradle Wrapper
+        run: |
+          gradle wrapper --gradle-version 9.3.1
+          chmod +x gradlew
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug --no-daemon --stacktrace
 
       - name: Upload Debug APK
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Rai-Ludo-King-APK
           path: app/build/outputs/apk/debug/*.apk
+          
